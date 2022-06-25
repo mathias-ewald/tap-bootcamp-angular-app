@@ -1,0 +1,13 @@
+apiVersion: carto.run/v1alpha1
+kind: Workload
+metadata:
+  name: tap-bootcamp-angular-app
+  labels: 
+    apps.tanzu.vmware.com/workload-type: spa
+    app.kubernetes.io/part-of: tap-bootcamp-angular-app
+spec:
+  source:
+    git:
+      url: ssh://git@github.com:22/tap-bootcamp-angular-app.git
+      ref:
+        branch: main
