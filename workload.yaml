@@ -8,6 +8,6 @@ metadata:
 spec:
   source:
     git:
-      url: ssh://git@github.com:22/tap-bootcamp-angular-app.git
+      url: https://github.com/mathias-ewald/tap-bootcamp-angular-app.git
       ref:
         branch: main
