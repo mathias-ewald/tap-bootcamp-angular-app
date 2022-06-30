@@ -1,3 +1,6 @@
+**WARNING:** This is a dysfunctional repository with the purpose of serving as a training exercise.
+
+
 # TAP Angular Example
 
 ## Prerequisites
